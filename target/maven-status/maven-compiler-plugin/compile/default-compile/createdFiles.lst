@@ -1,0 +1,8 @@
+modelo/Grid.class
+serviciojson/JsonService.class
+modelo/Emision.class
+modelo/Co2.class
+conexion_http/ConexionHTTP.class
+modelo/Statistics.class
+main/Main.class
+modelo/Renewable.class
