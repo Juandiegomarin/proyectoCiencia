@@ -48,25 +48,25 @@ public class Interface extends javax.swing.JFrame {
                 MedirActionPerformed(evt);
             }
         });
-        jPanel1.add(Medir, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 38, -1, -1));
+        jPanel1.add(Medir, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 40, -1, -1));
 
         Texto.setText("jTextField1");
         jPanel1.add(Texto, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, -1, -1));
 
         Bytes.setText("jLabel2");
-        jPanel1.add(Bytes, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 70, -1, -1));
+        jPanel1.add(Bytes, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, -1, -1));
 
         CleanerThan.setText("jLabel3");
         jPanel1.add(CleanerThan, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, -1));
 
         Energy.setText("jLabel4");
-        jPanel1.add(Energy, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 100, -1, -1));
+        jPanel1.add(Energy, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 100, -1, -1));
 
         GridGrams.setText("jLabel5");
-        jPanel1.add(GridGrams, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, -1, -1));
+        jPanel1.add(GridGrams, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, -1, -1));
 
         RenewableGrams.setText("jLabel6");
-        jPanel1.add(RenewableGrams, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 140, -1, -1));
+        jPanel1.add(RenewableGrams, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 130, -1, -1));
 
         Verde.setText("jLabel1");
         jPanel1.add(Verde, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, -1, -1));
@@ -77,8 +77,8 @@ public class Interface extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(78, 78, 78)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(121, Short.MAX_VALUE))
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(63, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
