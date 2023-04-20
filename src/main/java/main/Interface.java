@@ -31,15 +31,19 @@ public class Interface extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         Medir = new javax.swing.JButton();
         Texto = new javax.swing.JTextField();
-        Bytes = new javax.swing.JLabel();
-        CleanerThan = new javax.swing.JLabel();
-        Energy = new javax.swing.JLabel();
-        GridGrams = new javax.swing.JLabel();
-        RenewableGrams = new javax.swing.JLabel();
+        Carbon2 = new javax.swing.JLabel();
+        Carbon3 = new javax.swing.JLabel();
+        Carbon4 = new javax.swing.JLabel();
         Verde = new javax.swing.JLabel();
+        Bytes = new javax.swing.JLabel();
+        MasLimpio = new javax.swing.JLabel();
+        C02 = new javax.swing.JLabel();
+        Carbon1 = new javax.swing.JLabel();
+        Steve = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(153, 255, 153));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Medir.setText("jButton1");
@@ -48,28 +52,41 @@ public class Interface extends javax.swing.JFrame {
                 MedirActionPerformed(evt);
             }
         });
-        jPanel1.add(Medir, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 40, -1, -1));
+        jPanel1.add(Medir, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 160, -1, -1));
 
         Texto.setText("jTextField1");
-        jPanel1.add(Texto, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, -1, -1));
+        jPanel1.add(Texto, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, 80, -1));
 
-        Bytes.setText("jLabel2");
-        jPanel1.add(Bytes, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, -1, -1));
+        Carbon2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/1594080-charbon-amp_main_img-1.png"))); // NOI18N
+        Carbon2.setText("jLabel3");
+        jPanel1.add(Carbon2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, 950, 440, -1));
 
-        CleanerThan.setText("jLabel3");
-        jPanel1.add(CleanerThan, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, -1));
+        Carbon3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/1594080-charbon-amp_main_img-1.png"))); // NOI18N
+        Carbon3.setText("jLabel4");
+        jPanel1.add(Carbon3, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 600, 380, 280));
 
-        Energy.setText("jLabel4");
-        jPanel1.add(Energy, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 100, -1, -1));
-
-        GridGrams.setText("jLabel5");
-        jPanel1.add(GridGrams, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, -1, -1));
-
-        RenewableGrams.setText("jLabel6");
-        jPanel1.add(RenewableGrams, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 130, -1, -1));
+        Carbon4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/1594080-charbon-amp_main_img-1.png"))); // NOI18N
+        Carbon4.setText("jLabel2");
+        jPanel1.add(Carbon4, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 940, -1, -1));
 
         Verde.setText("jLabel1");
-        jPanel1.add(Verde, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, -1, -1));
+        jPanel1.add(Verde, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 760, -1, 20));
+
+        Bytes.setText("jLabel2");
+        jPanel1.add(Bytes, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 1040, -1, -1));
+
+        MasLimpio.setText("jLabel3");
+        jPanel1.add(MasLimpio, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 750, -1, -1));
+
+        C02.setText("jLabel4");
+        jPanel1.add(C02, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 1020, -1, -1));
+
+        Carbon1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/1594080-charbon-amp_main_img-1.png"))); // NOI18N
+        Carbon1.setText("jLabel1");
+        jPanel1.add(Carbon1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, 660, 470, 190));
+
+        Steve.setText("jLabel1");
+        jPanel1.add(Steve, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 350, 50, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -85,7 +102,7 @@ public class Interface extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(35, 35, 35)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(57, Short.MAX_VALUE))
+                .addContainerGap(86, Short.MAX_VALUE))
         );
 
         pack();
@@ -145,11 +162,14 @@ public class Interface extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Bytes;
-    private javax.swing.JLabel CleanerThan;
-    private javax.swing.JLabel Energy;
-    private javax.swing.JLabel GridGrams;
+    private javax.swing.JLabel C02;
+    private javax.swing.JLabel Carbon1;
+    private javax.swing.JLabel Carbon2;
+    private javax.swing.JLabel Carbon3;
+    private javax.swing.JLabel Carbon4;
+    private javax.swing.JLabel MasLimpio;
     private javax.swing.JButton Medir;
-    private javax.swing.JLabel RenewableGrams;
+    private javax.swing.JLabel Steve;
     private javax.swing.JTextField Texto;
     private javax.swing.JLabel Verde;
     private javax.swing.JPanel jPanel1;
