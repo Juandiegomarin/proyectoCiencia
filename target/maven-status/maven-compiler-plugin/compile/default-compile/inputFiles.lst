@@ -1,8 +1,8 @@
-/home/juandi/NetBeansProjects/proyectoCiencia/src/main/java/conexion_http/ConexionHTTP.java
-/home/juandi/NetBeansProjects/proyectoCiencia/src/main/java/modelo/Renewable.java
-/home/juandi/NetBeansProjects/proyectoCiencia/src/main/java/main/Main.java
-/home/juandi/NetBeansProjects/proyectoCiencia/src/main/java/serviciojson/JsonService.java
-/home/juandi/NetBeansProjects/proyectoCiencia/src/main/java/modelo/Statistics.java
-/home/juandi/NetBeansProjects/proyectoCiencia/src/main/java/modelo/Grid.java
-/home/juandi/NetBeansProjects/proyectoCiencia/src/main/java/modelo/Emision.java
-/home/juandi/NetBeansProjects/proyectoCiencia/src/main/java/modelo/Co2.java
+/home/alberto/IdeaProjects/proyectoCiencia/src/main/java/modelo/Co2.java
+/home/alberto/IdeaProjects/proyectoCiencia/src/main/java/serviciojson/JsonService.java
+/home/alberto/IdeaProjects/proyectoCiencia/src/main/java/main/Interface.java
+/home/alberto/IdeaProjects/proyectoCiencia/src/main/java/modelo/Statistics.java
+/home/alberto/IdeaProjects/proyectoCiencia/src/main/java/modelo/Renewable.java
+/home/alberto/IdeaProjects/proyectoCiencia/src/main/java/conexion_http/ConexionHTTP.java
+/home/alberto/IdeaProjects/proyectoCiencia/src/main/java/modelo/Grid.java
+/home/alberto/IdeaProjects/proyectoCiencia/src/main/java/modelo/Emision.java
